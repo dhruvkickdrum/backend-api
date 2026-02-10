@@ -12,6 +12,6 @@ public class TestController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello from Elastic Beanstalk CI/CD pipeline!";
+        return "Hello from Elastic Beanstalk CI/CD pipeline! Hello";
     }
 }
